@@ -1,6 +1,6 @@
 import tweepy
 
-#authenticaiton for twitter developer
+# authenticaiton for twitter developer
 auth = tweepy.OAuthHandler("", "")
 auth.set_access_token("", "")
 api = tweepy.API(auth)
