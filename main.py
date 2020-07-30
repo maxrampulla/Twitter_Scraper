@@ -8,6 +8,7 @@ import csv
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
+from nltk.probability import FreqDist
 
 # sets authentication handlers
 auth = tweepy.OAuthHandler("", "")
